@@ -9,37 +9,43 @@ Predicting the Google stock price over time is the assigned challenge.
 For this, a dataset is given to us that includes information such as Date, Opening Price, Highest Price, Lowest Price, Closing Price, Adjusted Closing Price, Volume, and many more.
 Create an RNN model to forecast the price of stocks based on the provided features.
 
-<img width="605" alt="Screenshot 2023-10-13 at 4 42 53 PM" src="https://github.com/KoduruSanathKumarReddy/rnn-stock-price-prediction/assets/69503902/9681d294-ef44-44a0-98eb-4fb44b7d50ba">
-
+![](1.png)
 
 ## Neural Network Model
 
-<img width="661" alt="Screenshot 2023-10-13 at 5 07 39 PM" src="https://github.com/KoduruSanathKumarReddy/rnn-stock-price-prediction/assets/69503902/1a46cd47-41a8-434e-b815-4fd749a42bd2">
+![](2.png)
 
 
 
 
 ## DESIGN STEPS
 
-### STEP 1: Import the require modules
+### STEP 1: 
+Import the require modules
 
-### STEP 2: Import the dataset to manipulate on
+### STEP 2: 
+Import the dataset to manipulate on
 
-### STEP 3: Assign the training and testing set
+### STEP 3: 
+Assign the training and testing set
 
-### STEP 4: Scale the data
+### STEP 4: 
+Scale the data
 
-### STEP 5: Create the model
+### STEP 5: 
+Create the model
 
-### STEP 6: Compile and fit the model
+### STEP 6: 
+Compile and fit the model
 
-### STEP 7: Make the prediction using testing data 
+### STEP 7: 
+Make the prediction using testing data 
 
 
 ## PROGRAM
 ~~~
-Developed by: Koduru Sanath Kumar Reddy
-Reg no: 212221240024
+Developed by: Manoj CHoudhary V
+Reg no: 212221240025
 ~~~
 ## Importing the required packages
 ~~~
@@ -140,22 +146,20 @@ plt.show()
 ~~~
 ## OUTPUT
 ## Dataset
-<img width="679" alt="Screenshot 2023-10-13 at 4 24 47 PM" src="https://github.com/KoduruSanathKumarReddy/rnn-stock-price-prediction/assets/69503902/f38c9210-6e30-4100-be5c-a6fabccc45c9">
+![](2.png)
 
 ## Model
 
-<img width="605" alt="Screenshot 2023-10-13 at 4 47 32 PM" src="https://github.com/KoduruSanathKumarReddy/rnn-stock-price-prediction/assets/69503902/48ccafd7-8e81-4d77-a547-27eca54c051f">
+![](4.png)
 
 
 ### True Stock Price, Predicted Stock Price vs time
-<img width="568" alt="Screenshot 2023-10-13 at 4 27 36 PM" src="https://github.com/KoduruSanathKumarReddy/rnn-stock-price-prediction/assets/69503902/71072bbb-5897-4d53-aad9-b78e0115c625">
-
+![](5.png)
 
 
 ### Mean Square Error
 
-<img width="546" alt="Screenshot 2023-10-13 at 4 38 02 PM" src="https://github.com/KoduruSanathKumarReddy/rnn-stock-price-prediction/assets/69503902/b9d06d66-0f11-4d10-a482-5e38787832d8">
-
+![](6.png)
 
 ## RESULT
 There for the a Recurrent Neural Network is successfully developed for stock prediction.
